@@ -1,5 +1,5 @@
 # boschinternship
-Internship application task at Bosch XC/ENA2 Team
+Internship application task at Bosch XC/ENA2 Team.
 This project is a Django web application that produces customised polls where users can vote on questions.
 	- It includes a home page with an overview about the subject (here Switzerland) with some general information.
 	- Polls can be accessed from the home page for users.
