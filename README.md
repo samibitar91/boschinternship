@@ -22,9 +22,14 @@ The app needs Python 3.8 and Django to run properly.
 	Unix/MacOS:  python -m pip install Django
 	Windows:     py -m pip install Django
 
+6. (Windows only): make sure that running scripts is enabled in the system. Run "Windows Power Shell" as administrator and type "Set-ExecutionPolicy unrestricted". If prompted to agree type in "Y". Check that it is changed to unrestricted by running "Get-ExecutionPolicy"
+
 5. By default, Django is setup with Sqlite3 database. For installing and using other databese types, please refer to "https://docs.djangoproject.com/en/4.1/topics/db/"
 
 6. If the database is not installed. Run the following command from main directory: >> py manage.py migrate
+
+7. Create superuser by running the following command from the main directory:  
+	7.1 Windows: py manage.py createsuperuser >> Username: sami. Email: (can be left blank). Password: sami1359
 
 
 ** Runnig the application **
